@@ -2,7 +2,9 @@
 coded by Tanilus     
 Hello, this is my first repository
 
-C --- #include <stdio.h>           //standard input/output library
+C ---
+
+      #include <stdio.h>           //standard input/output library
       #include <stdlib.h>
        int main(){
                       printf("Hello World");
@@ -12,7 +14,9 @@ C --- #include <stdio.h>           //standard input/output library
        
        }
 
-C++ --- #include <iostream>    //standard input/output library
+C++ --- 
+
+        #include <iostream> 
         #include <vector.h>
         using namespace std
         
@@ -32,8 +36,9 @@ C++ --- #include <iostream>    //standard input/output library
                        string.push_back("d");
         
                       for(auto i=string.cbegin; i<string.cend; i++)
-                      {cout<< string.values
+                      {cout<< *string[i];
                                    }
+                                   return 0;
         }
         
 
